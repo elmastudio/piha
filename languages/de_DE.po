@@ -1,0 +1,1011 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:17
+#@ piha
+msgid "Not Found"
+msgstr "Nichts gefunden"
+
+#: 404.php:21
+#@ piha
+msgid "Apologies, but the page you requested could not be found. Perhaps searching will help."
+msgstr "Entschuldigung, aber die Seite konnte leider nicht gefunden werden. Vielleicht findest du ein Ergebnis über die Suchfunktion."
+
+#: archive.php:24
+#@ piha
+msgid "Blog Archives"
+msgstr "Blogarchiv"
+
+#: content-aside.php:27
+#: content-audio.php:28
+#: content-chat.php:28
+#: content-gallery.php:56
+#: content-image.php:27
+#: content-link.php:27
+#: content-page.php:19
+#: content-quote.php:27
+#: content-single.php:29
+#: content-status.php:27
+#: content-video.php:27
+#: content.php:40
+#@ piha
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: category.php:13
+#, php-format
+#@ piha
+msgid "Category Archives: %s"
+msgstr "Artikel der Kategorie: %s"
+
+#: comments.php:12
+#@ piha
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Dieser Artikel ist Passwort geschützt. Trage das Passwort ein, um die Kommentare zu sehen."
+
+#: comments.php:48
+#@ piha
+msgid "&larr; Older Comments"
+msgstr "&larr; Ältere Kommentare"
+
+#: comments.php:47
+#@ piha
+msgid "Newer Comments &rarr;"
+msgstr "Neuere Kommentare &rarr;"
+
+#: content-aside.php:26
+#: content-audio.php:27
+#: content-chat.php:27
+#: content-image.php:26
+#: content-link.php:26
+#: content-quote.php:26
+#: content-status.php:26
+#: content-video.php:26
+#: content.php:39
+#@ piha
+msgid "Continue Reading &rarr;"
+msgstr "Weiterlesen &rarr;"
+
+#: content-aside.php:33
+#: content-audio.php:23
+#: content-chat.php:23
+#: content-gallery.php:23
+#: content-gallery.php:46
+#: content-image.php:33
+#: content-link.php:33
+#: content-quote.php:32
+#: content-status.php:32
+#: content-video.php:32
+#: content.php:23
+#, php-format
+#@ piha
+msgid "Permalink to %s"
+msgstr "Permalink zu %s"
+
+#: functions.php:70
+#@ piha
+msgid "Primary Navigation"
+msgstr "Haupt-Navigation"
+
+#: header.php:35
+#, php-format
+#@ piha
+msgid "Page %s"
+msgstr "Seite %s"
+
+#: functions.php:167
+#@ piha
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Weiterlesen <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:225
+#, php-format
+#@ piha
+msgid "%s"
+msgstr "%s"
+
+#: functions.php:240
+#@ piha
+msgid "Your comment is awaiting moderation."
+msgstr "Dein Kommentar befindet sich in Moderation."
+
+#: functions.php:252
+#@ piha
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions.php:286
+#: functions.php:287
+#: header.php:78
+#@ piha
+msgid "Search"
+msgstr "Suche"
+
+#: search.php:42
+#@ piha
+msgid "Nothing Found"
+msgstr "Keine Einträge gefunden"
+
+#: search.php:46
+#@ piha
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Entschuldigung, leider wurde zu deiner Suchanfrage kein Eintrag gefunden. Bitte versuche es noch einmal mit anderen Schlagwörtern."
+
+#: tag.php:16
+#, php-format
+#@ piha
+msgid "Tag Archives: %s"
+msgstr "Artikel zum Schlagwort:  %s"
+
+#: archive.php:18
+#, php-format
+#@ piha
+msgid "Daily Archives: <span>%s</span>"
+msgstr "Artikel am: <span>%s</span>"
+
+#: archive.php:20
+#, php-format
+#@ piha
+msgid "Monthly Archives: <span>%s</span>"
+msgstr "Artikel im: <span>%s</span>"
+
+#: archive.php:22
+#, php-format
+#@ piha
+msgid "Yearly Archives: <span>%s</span>"
+msgstr "Artikel des Jahres: <span>%s</span>"
+
+#: author.php:15
+#, php-format
+#@ piha
+msgid "Author Archives: <span class=\"vcard\">%s</span>"
+msgstr "Alle Artikel von: <span class=\"vcard\">%s</span>"
+
+#: functions.php:579
+#: functions.php:666
+#: functions.php:942
+#@ piha
+msgid "Title:"
+msgstr "Titel:"
+
+#: content-gallery.php:28
+#: content-gallery.php:52
+#@ piha
+msgid "View the pictures &rarr;"
+msgstr "Alle Bilder anschauen &rarr;"
+
+#: content-single.php:40
+#, php-format
+#@ piha
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#: footer.php:21
+#, php-format
+#@ piha
+msgid "Theme: %1$s by %2$s"
+msgstr "Theme: %1$s von %2$s"
+
+#: includes/theme-options.php:180
+#@ default
+msgid "custom_logo"
+msgstr ""
+
+#: includes/theme-options.php:181
+#@ piha
+msgid "Upload your own logo image"
+msgstr "Lade dein eigenes Logobild hoch"
+
+#: comments.php:74
+#@ piha
+msgctxt "noun"
+msgid "Message <span class=\"required\">*</span>"
+msgstr "Nachricht <span class=\"required\">*</span>"
+
+#: includes/theme-options.php:63
+#: includes/theme-options.php:64
+#@ piha
+msgid "Theme Options"
+msgstr "Theme Optionen"
+
+#: includes/theme-options.php:130
+#, php-format
+#@ piha
+msgid "%s Theme Options"
+msgstr "%s Theme Optionen"
+
+#: includes/theme-options.php:144
+#@ piha
+msgid "Link Color"
+msgstr "Linkfarbe"
+
+#: includes/theme-options.php:147
+#@ piha
+msgid "Select a Color"
+msgstr "Wähle eine Farbe"
+
+#: includes/theme-options.php:150
+#, php-format
+#@ piha
+msgid "Default color: %s"
+msgstr "Standardfarbe: %s"
+
+#: functions.php:242
+#@ piha
+msgid "Reply"
+msgstr "Antworten"
+
+#: comments.php:75
+#@ piha
+msgid "Send"
+msgstr "Senden"
+
+#: comments.php:63
+#@ piha
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: functions.php:599
+#@ piha
+msgid "Number of photos:"
+msgstr "Anzahl der Bilder:"
+
+#: functions.php:610
+#@ piha
+msgid "User"
+msgstr "Person"
+
+#: functions.php:611
+#@ piha
+msgid "Group"
+msgstr "Gruppe"
+
+#: functions.php:615
+#@ piha
+msgid "Show latest or random pictures:"
+msgstr "Zeige neuste oder zufällige Bilder:"
+
+#: functions.php:617
+#@ piha
+msgid "Latest"
+msgstr "Neuste"
+
+#: functions.php:618
+#@ piha
+msgid "Random"
+msgstr "Zufällige"
+
+#: functions.php:608
+#@ piha
+msgid "Choose user or group:"
+msgstr "Wähle Person oder Gruppe:"
+
+#: footer.php:21
+#@ piha
+msgid "Proudly powered by"
+msgstr ""
+
+#: functions.php:538
+#@ piha
+msgid "Flickr Widget"
+msgstr ""
+
+#: functions.php:584
+#@ piha
+msgid "Flickr ID (<a href=\"http://www.idgettr.com\" target=\"_blank\">idGettr</a>):"
+msgstr ""
+
+#: functions.php:690
+#@ piha
+msgid "Social Links Widget"
+msgstr ""
+
+#: functions.php:992
+#@ piha
+msgid "Dribbble URL:"
+msgstr ""
+
+#: functions.php:952
+#@ piha
+msgid "Facebook URL:"
+msgstr ""
+
+#: functions.php:997
+#@ piha
+msgid "Ffffound URL:"
+msgstr ""
+
+#: functions.php:962
+#@ piha
+msgid "Flickr URL:"
+msgstr ""
+
+#: functions.php:1042
+#@ piha
+msgid "Foursquare URL:"
+msgstr ""
+
+#: functions.php:1047
+#@ piha
+msgid "Gowalla URL:"
+msgstr ""
+
+#: functions.php:1032
+#@ piha
+msgid "Grooveshark URL:"
+msgstr ""
+
+#: functions.php:1027
+#@ piha
+msgid "Last.fm URL:"
+msgstr ""
+
+#: functions.php:1052
+#@ piha
+msgid "Linkedin URL:"
+msgstr ""
+
+#: functions.php:967
+#@ piha
+msgid "Picasa URL:"
+msgstr ""
+
+#: functions.php:1022
+#@ piha
+msgid "Slideshare URL:"
+msgstr ""
+
+#: functions.php:1067
+#@ piha
+msgid "Tumblr URL:"
+msgstr ""
+
+#: functions.php:947
+#@ piha
+msgid "Twitter URL:"
+msgstr ""
+
+#: functions.php:987
+#@ piha
+msgid "Vimeo URL:"
+msgstr ""
+
+#: functions.php:1062
+#@ piha
+msgid "WordPress URL:"
+msgstr ""
+
+#: functions.php:1057
+#@ piha
+msgid "Xing URL:"
+msgstr ""
+
+#: functions.php:982
+#@ piha
+msgid "YouTube URL:"
+msgstr ""
+
+#: functions.php:1007
+#@ piha
+msgid "Zootool URL:"
+msgstr ""
+
+#: includes/theme-options.php:177
+#@ piha
+msgid "Custom Logo Image"
+msgstr "Eigenes Logobild"
+
+#: includes/theme-options.php:179
+#@ piha
+msgid "Custom Logo image"
+msgstr "Eigenes Logobild"
+
+#: includes/theme-options.php:181
+#@ piha
+msgid " using the WordPress Media Library and then insert the URL here"
+msgstr ", indem du die WordPress Mediathek nutzt und die Bild URL dann hier einträgst."
+
+#: includes/theme-options.php:213
+#: includes/theme-options.php:215
+#@ piha
+msgid "Custom Favicon"
+msgstr "Eigenes Favicon"
+
+#: includes/theme-options.php:216
+#@ default
+msgid "custom_favicon"
+msgstr ""
+
+#: includes/theme-options.php:217
+#@ piha
+msgid "Create a favicon image e.g. with <a href=\"http://www.faviconr.com/\" target=\"_blank\">Faviconr</a>, upload your .ico Favicon image (via FTP) to your server and enter the Favicon URL here."
+msgstr "Erstelle zuerst ein Favicon-Bild z.B. mit Hilfe von <a href=\"http://www.faviconr.com/\" target=\"_blank\">Faviconr</a>. Lade dieses .ico Faviconbild dann (via FTP) auf deinen Server hoch und trage die Datei URL hier ein."
+
+#: includes/theme-options.php:204
+#: includes/theme-options.php:206
+#@ piha
+msgid "Custom Footer text"
+msgstr "Footer Text anpassen"
+
+#: includes/theme-options.php:208
+#@ piha
+msgid "Customize the footer credit text. Standard HTML is allowed."
+msgstr "Trage deinen eigenen Footer-Text ein. Standard HTML-Code ist möglich."
+
+#: functions.php:957
+#@ piha
+msgid "Google+ URL:"
+msgstr ""
+
+#: functions.php:1072
+#@ piha
+msgid "RSS-Feed URL:"
+msgstr ""
+
+#: functions.php:1077
+#@ piha
+msgid "RSS for Comments URL:"
+msgstr "RSS für Kommentare URL:"
+
+#: content-aside.php:42
+#: content-audio.php:35
+#: content-chat.php:35
+#: content-gallery.php:63
+#: content-image.php:42
+#: content-link.php:42
+#: content-quote.php:41
+#: content-single.php:52
+#: content-status.php:41
+#: content-video.php:41
+#: content.php:58
+#: image.php:81
+#@ piha
+msgid "0 comments"
+msgstr "0 Kommentare"
+
+#: content-aside.php:42
+#: content-audio.php:35
+#: content-chat.php:35
+#: content-gallery.php:63
+#: content-image.php:42
+#: content-link.php:42
+#: content-quote.php:41
+#: content-single.php:52
+#: content-status.php:41
+#: content-video.php:41
+#: content.php:58
+#: image.php:81
+#@ piha
+msgid "1 comment"
+msgstr "1 Kommentar"
+
+#: content-aside.php:42
+#: content-audio.php:35
+#: content-chat.php:35
+#: content-gallery.php:63
+#: content-image.php:42
+#: content-link.php:42
+#: content-quote.php:41
+#: content-single.php:52
+#: content-status.php:41
+#: content-video.php:41
+#: content.php:58
+#: image.php:81
+#@ piha
+msgid "% comments"
+msgstr "% Kommentare"
+
+#: content-aside.php:42
+#: content-audio.php:35
+#: content-chat.php:35
+#: content-gallery.php:63
+#: content-image.php:42
+#: content-link.php:42
+#: content-quote.php:41
+#: content-single.php:52
+#: content-status.php:41
+#: content-video.php:41
+#: content.php:58
+#: image.php:81
+#@ piha
+msgid "comments off"
+msgstr "Kommentare deaktiviert"
+
+#: footer.php:33
+#@ piha
+msgid "Back to Top &uArr;"
+msgstr "Nach oben &uArr;"
+
+#: content-aside.php:13
+#: content-audio.php:13
+#: content-chat.php:13
+#: content-gallery.php:13
+#: content-image.php:13
+#: content-link.php:13
+#: content-quote.php:13
+#: content-status.php:13
+#: content-video.php:13
+#: content.php:13
+#@ piha
+msgid "Permalink"
+msgstr "Permalink"
+
+#. gettext fix: duplicate plural forms found, that may be ambiguous! Please check the code!
+#: content-gallery.php:45
+#, php-format
+#@ piha
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgid_plural "This gallery contains <a %1$s>%2$s photos</a>"
+msgstr[0] "Die Galerie enthält <a %1$s>%2$s Bilder</a>."
+msgstr[1] "Die Galerie enthält <a %1$s>%2$s Bilder</a>"
+
+#: includes/theme-options.php:85
+#@ piha
+msgid "serif"
+msgstr "Serifenschrift"
+
+#: includes/theme-options.php:80
+#@ piha
+msgid "sans-serif"
+msgstr "serifenlose Schrift"
+
+#: includes/theme-options.php:155
+#: includes/theme-options.php:157
+#@ piha
+msgid "Font Option"
+msgstr "Schrift Option"
+
+#: includes/theme-options.php:195
+#: includes/theme-options.php:197
+#@ piha
+msgid "Custom Header Slogan"
+msgstr "Individueller Header Slogan"
+
+#: includes/theme-options.php:199
+#@ piha
+msgid "If you want to show a header slogan text, insert your slogan text here."
+msgstr "Um den optionalen Header Slogan zu nutzen, trage hier deinen eigenen Slogantext ein."
+
+#: search.php:16
+#, php-format
+#@ piha
+msgid "Search Results for: %s"
+msgstr "Suchergebnisse für: %s"
+
+#: share-posts.php:11
+#@ piha
+msgid "Short URL"
+msgstr "Kurz URL"
+
+#: includes/theme-options.php:222
+#: includes/theme-options.php:224
+#@ piha
+msgid "Share post buttons"
+msgstr "Artikel-Teilen Button"
+
+#: includes/theme-options.php:226
+#@ piha
+msgid "Check this box to include a post short URL, Twitter, Facebook and Google+ button on the blogs front page and on single post pages."
+msgstr "Wähle diese Option, um eine Kurz-URL, einen Twitter, Facebook und Google+ Button auf der Blog-Startseite und auf Artikel-Einzelseiten anzuzeigen."
+
+#: includes/theme-options.php:231
+#: includes/theme-options.php:233
+#@ piha
+msgid "Share post buttons on single posts only"
+msgstr "Teilen-Buttons nur auf Artikel-Einzelseiten"
+
+#: includes/theme-options.php:235
+#@ piha
+msgid "Check this box to include the share post buttons <strong>only</strong> on single post pages."
+msgstr "Wähle diese Option, um die Teilen-Button nur auf Artikel-Einzelseiten anzuzeigen."
+
+#: archive.php:42
+#: author.php:31
+#: category.php:32
+#: index.php:26
+#: search.php:29
+#: tag.php:31
+#@ piha
+msgid "&laquo; Older posts"
+msgstr "&laquo; Ältere Artikel"
+
+#: archive.php:43
+#: author.php:32
+#: category.php:33
+#: index.php:27
+#: search.php:30
+#: tag.php:32
+#@ piha
+msgid "Newer posts &raquo;"
+msgstr "Neuere Artikel &raquo;"
+
+#: content-aside.php:42
+#: content-audio.php:35
+#: content-chat.php:35
+#: content-gallery.php:63
+#: content-image.php:42
+#: content-link.php:42
+#: content-quote.php:41
+#: content-single.php:52
+#: content-status.php:41
+#: content-video.php:41
+#: content.php:58
+#: image.php:81
+#@ piha
+msgid "| Conversation:"
+msgstr "| Unterhaltung:"
+
+#: content-aside.php:43
+#: content-audio.php:36
+#: content-chat.php:36
+#: content-gallery.php:64
+#: content-image.php:43
+#: content-link.php:43
+#: content-quote.php:42
+#: content-single.php:53
+#: content-status.php:42
+#: content-video.php:42
+#: content.php:59
+#@ piha
+msgid "| Category:"
+msgstr "| Kategorie:"
+
+#: content-aside.php:46
+#: content-audio.php:39
+#: content-chat.php:39
+#: content-gallery.php:67
+#: content-image.php:46
+#: content-link.php:46
+#: content-quote.php:45
+#: content-single.php:56
+#: content-status.php:45
+#: content-video.php:45
+#: content.php:62
+#@ piha
+msgid "| Tags:"
+msgstr "| Schlagwörter:"
+
+#: content-single.php:13
+#: content-single.php:15
+#@ piha
+msgid "Post Format"
+msgstr "Artikelformat"
+
+#: functions.php:71
+#@ piha
+msgid "Optional Top Navigation (no sub menus supported)"
+msgstr "Optionale Top Navigation (es werden keine Untermenüpunkte unterstützt)"
+
+#: functions.php:72
+#@ piha
+msgid "Optional Footer Navigation (no sub menus supported)"
+msgstr "Optionale Footer Navigation (es werden keine Untermenüpunkte unterstützt)"
+
+#. translators: 1: date, 2: time
+#: functions.php:229
+#, php-format
+#@ piha
+msgid "%1$s &#64; %2$s"
+msgstr "%1$s &#64; %2$s"
+
+#: functions.php:267
+#@ piha
+msgid "Main Sidebar"
+msgstr "Haupt-Sidebar"
+
+#: single.php:22
+#@ piha
+msgid "Next Post &raquo;"
+msgstr "Nächster Artikel &raquo;"
+
+#: single.php:23
+#@ piha
+msgid "&laquo; Previous Post"
+msgstr "&laquo; Vorheriger Artikel"
+
+#: comments.php:29
+#, php-format
+#@ piha
+msgid "One comment"
+msgid_plural "%1$s comments"
+msgstr[0] "1 Kommentar"
+msgstr[1] "%1$s Kommentare"
+
+#: comments.php:72
+#@ piha
+msgid "<p class=\"comment-note\">Required fields are marked <span class=\"required\">*</span>.</p>"
+msgstr "<p class=\"comment-note\">Pflichtfelder sind mit <span class=\"required\">*</span> markiert.</p>"
+
+#: content-aside.php:34
+#: content-image.php:34
+#: content-link.php:34
+#: content-quote.php:33
+#: content-status.php:33
+#: content-video.php:33
+#@ piha
+msgid "| Posted by:"
+msgstr "| Veröffentlicht von:"
+
+#: content-aside.php:36
+#: content-image.php:36
+#: content-link.php:36
+#: content-quote.php:35
+#: content-status.php:35
+#: content-video.php:35
+#: content.php:52
+#, php-format
+#@ piha
+msgid "<a href=\"%1$s\" title=\"%2$s\">%3$s</a>"
+msgstr "<a href=\"%1$s\" title=\"%2$s\">%3$s</a>"
+
+#: content-aside.php:38
+#: content-image.php:38
+#: content-link.php:38
+#: content-quote.php:37
+#: content-status.php:37
+#: content-video.php:37
+#: content.php:54
+#, php-format
+#@ piha
+msgid "View all posts by %s"
+msgstr "Alle Artikel von %s"
+
+#: content-aside.php:48
+#: content-audio.php:41
+#: content-chat.php:41
+#: content-gallery.php:69
+#: content-image.php:48
+#: content-link.php:48
+#: content-quote.php:47
+#: content-single.php:58
+#: content-status.php:47
+#: content-video.php:47
+#: content.php:64
+#: image.php:82
+#@ piha
+msgid "Edit post &raquo;"
+msgstr "Artikel bearbeiten &raquo;"
+
+#: content-audio.php:34
+#: content-chat.php:34
+#: content-gallery.php:62
+#: content-single.php:51
+#: content.php:50
+#@ piha
+msgid "Posted by:"
+msgstr "Veröffentlicht von:"
+
+#: content-page.php:23
+#@ piha
+msgid "Edit this page &raquo;"
+msgstr "Diese Seite bearbeiten &raquo;"
+
+#: footer.php:25
+#@ piha
+msgid "RSS Feed of all posts"
+msgstr "RSS Feed aller Artikel"
+
+#: footer.php:25
+#@ piha
+msgid "RSS Feed"
+msgstr "RSS Feed"
+
+#: footer.php:26
+#@ piha
+msgid "The latest comments of all posts in RSS"
+msgstr "Die neusten Kommentare aller Artikel als RSS-Feed"
+
+#: footer.php:26
+#@ piha
+msgid "RSS Comments"
+msgstr "RSS Kommentare"
+
+#: functions.php:234
+#@ piha
+msgid "Edit comment &raquo;"
+msgstr "Kommentare bearbeiten &raquo;"
+
+#: functions.php:253
+#@ piha
+msgid "Edit pingback &raquo;"
+msgstr "Pingback bearbeiten &raquo;"
+
+#: functions.php:269
+#@ piha
+msgid "Add your sidebar widgets here."
+msgstr "Füge hier deine Sidebar-Widgets hinzu."
+
+#: functions.php:589
+#@ piha
+msgid "Flickr Profile Link Text:"
+msgstr "Flickr-Profil Link-Text:"
+
+#: functions.php:594
+#@ piha
+msgid "Flickr Profile URL:"
+msgstr "Flickr-Profil URL:"
+
+#: functions.php:972
+#@ piha
+msgid "500px URL:"
+msgstr "500px URL:"
+
+#: functions.php:977
+#@ piha
+msgid "Delicious URL:"
+msgstr "Delicious URL:"
+
+#: functions.php:1012
+#@ piha
+msgid "Behance Network URL:"
+msgstr "Behance Network URL:"
+
+#: functions.php:1017
+#@ piha
+msgid "Squidoo URL:"
+msgstr "Squidoo URL:"
+
+#: functions.php:1037
+#@ piha
+msgid "Soundcloud URL:"
+msgstr "Soundcloud URL:"
+
+#: image.php:24
+#: image.php:90
+#@ piha
+msgid "Next Image &raquo;"
+msgstr "Nächstes Bild &raquo;"
+
+#: image.php:25
+#: image.php:91
+#@ piha
+msgid "&laquo; Previous Image"
+msgstr "&laquo; Vorheriges Bild"
+
+#: sidebar.php:14
+#@ piha
+msgid "Archives"
+msgstr "Archiv"
+
+#: sidebar.php:21
+#@ piha
+msgid "Meta"
+msgstr "Meta"
+
+#: content-aside.php:33
+#@ piha
+msgid "Aside:"
+msgstr "Kurzmitteilung:"
+
+#: content-image.php:33
+#@ piha
+msgid "Image:"
+msgstr "Bild:"
+
+#: content-link.php:33
+#@ piha
+msgid "Link:"
+msgstr "Link:"
+
+#: content-quote.php:32
+#@ piha
+msgid "Quote:"
+msgstr "Zitat:"
+
+#: content-status.php:32
+#@ piha
+msgid "Status:"
+msgstr "Statusmitteilung"
+
+#: content-video.php:32
+#@ piha
+msgid "Video:"
+msgstr "Video:"
+
+#: content-aside.php:19
+#: content-audio.php:19
+#: content-chat.php:19
+#: content-gallery.php:19
+#: content-image.php:19
+#: content-link.php:19
+#: content-quote.php:19
+#: content-status.php:19
+#: content-video.php:19
+#: content.php:19
+#@ piha
+msgid "Featured"
+msgstr "Featured"
+
+#: image.php:15
+#@ piha
+msgid "Return to the gallery"
+msgstr "zurück zur Galerie"
+
+#: image.php:71
+#, php-format
+#@ piha
+msgid "<span>Size: </span> <a href=\"%3$s\" title=\"Link to full-size image\">%4$s&times;%5$s px</a> <span>| Gallery: </span> <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
+msgstr "<span>Bildgrö&szlig;e: </span> <a href=\"%3$s\" title=\"Link zum Bild in Originalgröße\">%4$s&times;%5$s px</a> <span>| Galerie: </span> <a href=\"%6$s\" title=\"zurück zu: %7$s\" rel=\"gallery\">%7$s</a>"
+
+#: includes/theme-options.php:186
+#: includes/theme-options.php:188
+#@ piha
+msgid "Show search form in header"
+msgstr "Zeige Suchformular im Header"
+
+#: includes/theme-options.php:190
+#@ piha
+msgid "Check this box to show a search form in the headers top bar."
+msgstr "Wähle diese Option, um ein Suchformular in der Header-Topleiste zu integrieren."
+
+#. translators: header image description
+#: functions.php:107
+#@ piha
+msgid "Numbers"
+msgstr "Nummern"
+
+#. translators: header image description
+#: functions.php:113
+#@ piha
+msgid "Mosaik"
+msgstr "Mosaik"
+
+#: functions.php:636
+#@ piha
+msgid "Video Widget"
+msgstr "Video Widget"
+
+#: functions.php:671
+#@ piha
+msgid "Video embed code:"
+msgstr "Video-Einbettungscode:"
+
+#: functions.php:1082
+#@ piha
+msgid "Open all links in a new browser tab"
+msgstr "Öffne alle Social-Links in einem neuen Browser-Tab"
+
+#: header.php:139
+#@ piha
+msgid "Menu"
+msgstr "Menü"
+
+#: includes/theme-options.php:142
+#@ piha
+msgid "Customize Link Color"
+msgstr "Link-Farbe anpassen"
+
+#: functions.php:1002
+#@ piha
+msgid "Pinterest URL:"
+msgstr "Pinterest URL:"
+
+#: includes/theme-options.php:240
+#: includes/theme-options.php:242
+#@ piha
+msgid "Mobile optimized Main Navigation"
+msgstr "Für mobile Geräte optimierte Haupt-Navigation"
+
+#: includes/theme-options.php:244
+#@ piha
+msgid "Check this box to deactivate the mobile optimized main navigation.<br/>(This option will hide the menu button for small screens like tablet pcs and smartphones. The mobile main navigation will always be extended instead.)"
+msgstr "Wähle diese Option, um die für mobile Geräte optimierte Haupt-Navigation zu deaktivieren.<br/> (Mit Hilfe dieser Option kannst du den Menü-Button auf kleinen Bildschirmen wie Tablet PCs und Smartphones verbergen. Das mobile Menü ist dann standardmäßig sichtbar.)"
+
