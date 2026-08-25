@@ -544,6 +544,7 @@ class piha_flickr extends WP_Widget {
 	}
 
 	function widget($args, $instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'id' => '', 'linktext' => '', 'linkurl' => '', 'number' => '', 'type' => '', 'sorting' => '' ) );
 		extract( $args );
 		$title = $instance['title'];
 		$id = $instance['id'];
@@ -571,6 +572,7 @@ class piha_flickr extends WP_Widget {
 	 }
 
 	 function form($instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'id' => '', 'linktext' => '', 'linkurl' => '', 'number' => '', 'type' => '', 'sorting' => '' ) );
 		$title = esc_attr($instance['title']);
 		$id = esc_attr($instance['id']);
 		$linktext = esc_attr($instance['linktext']);
@@ -643,6 +645,7 @@ class piha_video extends WP_Widget {
 	}
 
 	function widget($args, $instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'embedcode' => '' ) );
 		extract( $args );
 		$title = $instance['title'];
 		$embedcode = $instance['embedcode'];
@@ -664,6 +667,7 @@ class piha_video extends WP_Widget {
 	 }
 
 	 function form($instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'embedcode' => '' ) );
 		$title = esc_attr($instance['title']);
 		$embedcode = esc_attr($instance['embedcode']);
 		?>
@@ -698,6 +702,7 @@ register_widget('piha_video');
 	}
 
 	function widget($args, $instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'twitter' => '', 'facebook' => '', 'googleplus' => '', 'flickr' => '', 'picasa' => '', 'fivehundredpx' => '', 'delicious' => '', 'youtube' => '', 'vimeo' => '', 'dribbble' => '', 'ffffound' => '', 'pinterest' => '', 'zootool' => '', 'behance' => '', 'squidoo' => '', 'slideshare' => '', 'lastfm' => '', 'grooveshark' => '', 'soundcloud' => '', 'foursquare' => '', 'gowalla' => '', 'linkedin' => '', 'xing' => '', 'wordpress' => '', 'tumblr' => '', 'rss' => '', 'rsscomments' => '', 'target' => '' ) );
 		extract( $args );
 		$title = $instance['title'];
 		$twitter = $instance['twitter'];
@@ -913,6 +918,7 @@ register_widget('piha_video');
 	 }
 
 	 function form($instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'twitter' => '', 'facebook' => '', 'googleplus' => '', 'flickr' => '', 'picasa' => '', 'fivehundredpx' => '', 'delicious' => '', 'youtube' => '', 'vimeo' => '', 'dribbble' => '', 'ffffound' => '', 'pinterest' => '', 'zootool' => '', 'behance' => '', 'squidoo' => '', 'slideshare' => '', 'lastfm' => '', 'grooveshark' => '', 'soundcloud' => '', 'foursquare' => '', 'gowalla' => '', 'linkedin' => '', 'xing' => '', 'wordpress' => '', 'tumblr' => '', 'rss' => '', 'rsscomments' => '', 'target' => '' ) );
 		$title = esc_attr($instance['title']);
 		$twitter = esc_attr($instance['twitter']);
 		$facebook = esc_attr($instance['facebook']);
@@ -1094,3 +1100,14 @@ register_widget('piha_video');
 }
 
 register_widget('piha_sociallinks');
+
+/* __php8_option_defaults: never let the theme options be false or miss a key (PHP 8). */
+function piha_php8_option_defaults( $options = array() ) {
+	$fallback = array_fill_keys( array( 'link_color', 'theme_fonts', 'custom_logo', 'header_search', 'custom_headerslogan', 'custom_footertext', 'custom_favicon', 'share-posts', 'share-single-posts', 'nav_mobile' ), '' );
+	if ( function_exists( 'piha_get_default_theme_options' ) ) {
+		$fallback = array_merge( $fallback, (array) piha_get_default_theme_options() );
+	}
+	return wp_parse_args( is_array( $options ) ? $options : array(), $fallback );
+}
+add_filter( 'default_option_piha_theme_options', 'piha_php8_option_defaults' );
+add_filter( 'option_piha_theme_options', 'piha_php8_option_defaults' );
