@@ -66,3 +66,9 @@ Version 1.0 - October 5th 2011
 ----------------------------------------------------------------------------------------------------------------------
 
 Social Icons used for Social Links widget: Icons by Gedy Rivera: http://lifetreecreative.com/icons/
+
+Changelog:
+
+Version 1.0.5 (25/08/2026)
+-----------------------------------------------------------------------------------------------------------------------------
+- Fix: PHP 8 compatibility. Theme options and widget settings no longer trigger warnings; attachment pages, related posts and comment display fixed where affected.
