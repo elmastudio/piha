@@ -270,7 +270,7 @@ function piha_widgets_init() {
 	) );
 
 }
-add_action( 'init', 'piha_widgets_init' );
+add_action( 'widgets_init', 'piha_widgets_init' );
 
 /*-----------------------------------------------------------------------------------*/
 /* Customized Piha search form
@@ -629,7 +629,6 @@ class piha_flickr extends WP_Widget {
 	}
 }
 
-register_widget('piha_flickr');
 
 /*-----------------------------------------------------------------------------------*/
 /* Include a custom Video Widget
@@ -686,7 +685,6 @@ class piha_video extends WP_Widget {
 	}
 }
 
-register_widget('piha_video');
 
 /*-----------------------------------------------------------------------------------*/
 /* Including a custom Social Media Widget
@@ -1099,7 +1097,6 @@ register_widget('piha_video');
 	}
 }
 
-register_widget('piha_sociallinks');
 
 /* __php8_option_defaults: never let the theme options be false or miss a key (PHP 8). */
 function piha_php8_option_defaults( $options = array() ) {
@@ -1111,3 +1108,15 @@ function piha_php8_option_defaults( $options = array() ) {
 }
 add_filter( 'default_option_piha_theme_options', 'piha_php8_option_defaults' );
 add_filter( 'option_piha_theme_options', 'piha_php8_option_defaults' );
+
+/**
+ * Registered on widgets_init, which is where WordPress asks for it. At file
+ * scope each widget's constructor translated its own name before init, which
+ * WordPress 6.7 reports on every request.
+ */
+function piha_register_widgets() {
+	register_widget( 'piha_flickr' );
+	register_widget( 'piha_video' );
+	register_widget( 'piha_sociallinks' );
+}
+add_action( 'widgets_init', 'piha_register_widgets' );
